@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa">
-      <body>{children}</body>
+    <html lang="fa" dir="rtl">
+      <body className="max-w-6xl mx-auto px-4 pt-2">{children}</body>
     </html>
   );
 }
